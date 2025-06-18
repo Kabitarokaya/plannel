@@ -1,0 +1,115 @@
+.top{
+    background: #088f33;
+}
+ul{
+    list-style: none;
+    margin: 0; padding: 0;
+}
+header i{
+    font-size: 20px; border-radius: 50%;
+ padding: 5px;
+
+}
+header .bi-twitter:hover{
+    background: skyblue;
+}
+header .bi-facebook:hover{
+    background: #3B5997;
+    width: 100px;
+    height: 100px;
+
+}
+.bi-google:hover{
+    background: red;
+
+}
+
+.bg2{
+    background: #0B732B;
+}
+.navbar-brand{
+    position: absolute;
+    top: -50px;
+    z-index: 999;
+}
+.navbar-brand img{
+    border: 2px solid orange;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff; padding: 20px 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: orange;
+}
+.carousel-caption{
+    text-align: right;
+    bottom: 200px;
+    right: 13%;
+}
+.introduction h3{
+    background: #0B732B;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 1px gray;
+}
+.box p{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    padding: 15px 40px;
+    color: #fff;
+    background: orange;
+}
+.box img{
+    transition: 0.9s; 
+}
+.box:hover img{
+    transform: scale(1.4);
+}
+.box p:hover{
+    background: #088f33;
+}
+h2{
+    color: #088f33;
+}
+
+
+.flex{
+    display: flex; justify-content: space-between;
+}
+.or li{
+    color: #fff;
+    transition: 0.9s all ease-in-out;
+
+}
+.or li:hover{
+    color: orange;
+}
+.tour{
+    position: relative;
+}
+.tour-c{
+    position: absolute;
+    background: #088f33e3;
+    color: #fff;
+    padding: 3px;
+    width: 100%;
+    bottom: 0;
+}
+.k:hover{
+    background: green;
+    border: 1px solid green;
+}
+.client{
+    background: url(https://www.plannepal.com/assets/img/testimonials/clients.jpg);
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    background: green;
+    color: #fff;
+}
